@@ -20,20 +20,52 @@ body {
 }
 header{
   display: flex;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 header ul{
   display: flex;
   gap: 40px;
 }
-.ourportfolio ul{
+.ourportfolio ul, .ourteam, .ourportfolio{
   flex-wrap: wrap;
 }
-.container, footer, .ourteam ul, .ourportfolio ul, .row1, .row2{
+.container, footer, .ourteam ul, .row1, .row2{
   padding-left: 7.9%;
   padding-right: 7.9%;
   display: flex;
+  justify-content: center;
+}
+.ourteam ul{
+  gap: 24px;
+  margin-bottom: 120px;
+}
+.ourteam li{
+  background-color: #FFFFFF;
+}
+.ourportfolio li {
+  border-bottom: 1px solid #E7E9FC;
+}
+.row1, .row2{
+  gap: 24px;
+}
+.row1{
+  margin-bottom: 48px;
+}
+.row2{
+  margin-bottom: 120px;
+}
+.mainideas{
+  margin-top: 120px;
+  margin-bottom: 120px;
+  gap: 24px;
+}
+.ourportfolioh3{
+  margin: 32px auto 8px 16px;
+}
+.ourportfoliop{
+  margin: 8px auto 32px 16px;
+}
+.ourteamh3{
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 }
 h1 {
   font-size: 56px;
@@ -46,6 +78,8 @@ h1 {
 h2 {
   font-size: 36px;
   color: #2e2f42;
+  margin-top: 120px;
+  margin-bottom: 72px;
 }
 h3 {
   font-size: 20px;
