@@ -1,0 +1,124 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+header,
+header * {
+  border: 1px solid red;
+}
+body {
+  font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  color: #434455;
+}
+header{
+  display: flex;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+header ul{
+  display: flex;
+  gap: 40px;
+}
+.ourportfolio ul{
+  flex-wrap: wrap;
+}
+.container, footer, .ourteam ul, .ourportfolio ul, .row1, .row2{
+  padding-left: 7.9%;
+  padding-right: 7.9%;
+  display: flex;
+}
+h1 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 1.1px;
+  text-align: center;
+  /*   line-height: 1.07;   */
+}
+h2 {
+  font-size: 36px;
+  color: #2e2f42;
+}
+h3 {
+  font-size: 20px;
+  color: #2e2f42;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.button {
+  background-color: #4d5ae5;
+  color: #ffffff;
+  cursor: pointer;
+}
+footer {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+}
+.webfooter {
+  font-family: "Raleway", "Segoe UI", "Helvetica Neue", "Open Sans", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+}
+.studiofooter {
+  font-family: "Raleway", "Segoe UI", "Helvetica Neue", "Open Sans", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #f4f4fd;
+}
+.web {
+  font-family: "Raleway", "Segoe UI", "Helvetica Neue", "Open Sans", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #4d5ae5;
+}
+.studio {
+  font-family: "Raleway", "Segoe UI", "Helvetica Neue", "Open Sans", Arial,
+    sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #2e2f42;
+}
+.title {
+  background-color: #2e2f42;
+}
+.address {
+  color: #434455;
+}
+.link {
+  color: #2e2f42;
+}
+.footerinfo {
+  font-size: 16px;
+  color: #f4f4fd;
+}
+.web,
+.studio,
+.webfooter,
+.studiofooter,
+.title,
+.address,
+.button,
+.footerinfo,
+.link {
+  text-decoration: none;
+}
+ul {
+  list-style-type: none;
+}
+.ourteam{
+  background-color: #F4F4FD;
+}
