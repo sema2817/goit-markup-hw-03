@@ -5,7 +5,7 @@ h4,
 h5,
 h6,
 p,
-ul{
+ul {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -17,78 +17,84 @@ ul{
   box-sizing: content-box;
 } 
 */
-header{
+header {
   display: flex;
-  justify-content: space-between ;
+  justify-content: space-between;
   margin: 24px 156px 24px 156px;
 }
 .logomenu {
   display: flex;
   gap: 70px;
 }
-nav ul{
+nav ul {
   gap: 40px;
 }
-address ul{
+address ul {
   white-space: nowrap;
   gap: 40px;
 }
-header ul{
+header ul {
   display: flex;
 }
 body {
   font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: #434455;
 }
-.ourportfolio ul, .ourteam, .ourportfolio{
+.ourportfolio ul,
+.ourteam,
+.ourportfolio {
   flex-wrap: wrap;
 }
-.container, .ourteam ul, .row1, .row2{
+.container,
+.ourteam ul,
+.row1,
+.row2 {
   padding-left: 156px;
   padding-right: 156px;
   display: flex;
   justify-content: center;
 }
-.ourteam ul{
+.ourteam ul {
   gap: 24px;
   margin-bottom: 120px;
 }
-.ourteam li{
-  background-color: #FFFFFF;
+.ourteam li {
+  background-color: #ffffff;
 }
 .ourportfolio li {
-  border-bottom: 1px solid #E7E9FC;
+  border-bottom: 1px solid #e7e9fc;
 }
-.row1, .row2{
+.row1,
+.row2 {
   gap: 24px;
 }
-.row1{
+.row1 {
   margin-bottom: 48px;
 }
-.row2{
+.row2 {
   margin-bottom: 120px;
 }
-.mainideas{
+.mainideas {
   margin-bottom: 120px;
   margin-top: 120px;
   gap: 24px;
 }
-.ourportfolio h3{
+.ourportfolio h3 {
   margin: 32px auto 8px 16px;
 }
-.ourportfolio p{
+.ourportfolio p {
   margin: 8px auto 32px 16px;
 }
-.ourteamcontent{
+.ourteamcontent {
   flex-wrap: wrap;
   justify-content: center;
   margin: 32px 16px;
 }
-.ourteam h3{
+.ourteam h3 {
   display: flex;
   justify-content: center;
 }
-.ourteam p{
+.ourteam p {
   display: flex;
   justify-content: center;
 }
@@ -128,14 +134,14 @@ p {
 footer {
   color: #f4f4fd;
   background-color: #2e2f42;
-  height: 312px;;
+  height: 312px;
   display: flex;
   align-items: center;
 }
-.footerlogo{
-  margin-bottom: 16px;  
+.footerlogo {
+  margin-bottom: 16px;
 }
-.footercontent{
+.footercontent {
   margin-left: 156px;
 }
 .webfooter {
@@ -192,9 +198,9 @@ footer {
 .link {
   text-decoration: none;
 }
-ul{
+ul {
   list-style-type: none;
 }
-.ourteam{
-  background-color: #F4F4FD;
+.ourteam {
+  background-color: #f4f4fd;
 }
