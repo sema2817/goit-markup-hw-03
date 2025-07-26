@@ -17,14 +17,21 @@ ul{
   box-sizing: content-box;
 } 
 */
-header,
-header * {
-  border: 1px solid red;
-}
 header{
   display: flex;
-  margin-left: 156px;
-  margin-right: 156px;
+  justify-content: space-between ;
+  margin: 24px 156px 24px 156px;
+}
+.logomenu {
+  display: flex;
+  gap: 70px;
+}
+nav ul{
+  gap: 40px;
+}
+address ul{
+  white-space: nowrap;
+  gap: 40px;
 }
 header ul{
   display: flex;
