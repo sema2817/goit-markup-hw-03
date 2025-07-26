@@ -5,32 +5,40 @@ h4,
 h5,
 h6,
 p,
-ul {
+ul{
   margin: 0;
   padding: 0;
   list-style: none;
 }
+/*
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+} 
+*/
 header,
 header * {
   border: 1px solid red;
+}
+header{
+  display: flex;
+  margin-left: 156px;
+  margin-right: 156px;
+}
+header ul{
+  display: flex;
 }
 body {
   font-family: "Roboto", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   color: #434455;
 }
-header{
-  display: flex;
-}
-header ul{
-  display: flex;
-  gap: 40px;
-}
 .ourportfolio ul, .ourteam, .ourportfolio{
   flex-wrap: wrap;
 }
-.container, footer, .ourteam ul, .row1, .row2{
-  padding-left: 7.9%;
-  padding-right: 7.9%;
+.container, .ourteam ul, .row1, .row2{
+  padding-left: 156px;
+  padding-right: 156px;
   display: flex;
   justify-content: center;
 }
@@ -54,8 +62,8 @@ header ul{
   margin-bottom: 120px;
 }
 .mainideas{
-  margin-top: 120px;
   margin-bottom: 120px;
+  margin-top: 120px;
   gap: 24px;
 }
 .ourportfolioh3{
@@ -64,8 +72,18 @@ header ul{
 .ourportfoliop{
   margin: 8px auto 32px 16px;
 }
-.ourteamh3{
-  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+.ourteamcontent{
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 32px 16px;
+}
+.ourteam h3{
+  display: flex;
+  justify-content: center;
+}
+.ourteam p{
+  display: flex;
+  justify-content: center;
 }
 h1 {
   font-size: 56px;
@@ -84,6 +102,7 @@ h2 {
 h3 {
   font-size: 20px;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 p {
   font-size: 16px;
@@ -93,10 +112,24 @@ p {
   background-color: #4d5ae5;
   color: #ffffff;
   cursor: pointer;
+  display: block;
+  margin: 48px auto;
+  /* display ve margin kismini anlamadim geri don*/
+  width: 169px;
+  height: 56px;
 }
 footer {
   color: #f4f4fd;
   background-color: #2e2f42;
+  height: 312px;;
+  display: flex;
+  align-items: center;
+}
+.footerlogo{
+  margin-bottom: 16px;  
+}
+.footercontent{
+  margin-left: 156px;
 }
 .webfooter {
   font-family: "Raleway", "Segoe UI", "Helvetica Neue", "Open Sans", Arial,
@@ -128,6 +161,8 @@ footer {
 }
 .title {
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 .address {
   color: #434455;
@@ -150,7 +185,7 @@ footer {
 .link {
   text-decoration: none;
 }
-ul {
+ul{
   list-style-type: none;
 }
 .ourteam{
