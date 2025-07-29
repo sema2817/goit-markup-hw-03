@@ -18,7 +18,8 @@ ul {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 24px 156px 24px 156px;
+  padding: 24px 156px 24px 156px;
+  border-bottom: 1px solid #e7e9fc;
 }
 .logomenu {
   display: flex;
@@ -52,9 +53,12 @@ body {
   display: flex;
   justify-content: center;
 }
+.conatiner {
+  width: 1158px;
+}
 .ourteam ul {
   gap: 24px;
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .ourteam li {
   background-color: #ffffff;
@@ -67,14 +71,14 @@ body {
   gap: 24px;
 }
 .row1 {
-  margin-bottom: 48px;
+  padding-bottom: 48px;
 }
 .row2 {
-  margin-bottom: 120px;
+  padding-bottom: 120px;
 }
 .mainideas {
-  margin-bottom: 120px;
-  margin-top: 120px;
+  padding-bottom: 120px;
+  padding-top: 120px;
   gap: 24px;
 }
 .ourportfolio h3 {
@@ -107,8 +111,8 @@ h1 {
 h2 {
   font-size: 36px;
   color: #2e2f42;
-  margin-top: 120px;
-  margin-bottom: 72px;
+  padding-top: 120px;
+  padding-bottom: 72px;
 }
 h3 {
   font-size: 20px;
@@ -174,7 +178,6 @@ footer {
   background-color: #2e2f42;
   padding-top: 188px;
   padding-bottom: 188px;
-  border-bottom: 1px solid #e7e9fc;
 }
 .address {
   color: #434455;
