@@ -55,6 +55,7 @@ body {
 }
 .container {
   width: 1158px;
+  margin: 0 auto;
 }
 .ourteam ul {
   gap: 24px;
